@@ -1,0 +1,13 @@
+#REPETITIVAS ITERACION QUE CALCULA CUALQUIER CADENA + AGREGADO EL NUMERO 500
+import os
+cadena=""
+
+#ARGUMENTO
+#ASIGNACION DE VALORES
+cadena=os.sys.argv[1]
+
+#PROCESSING DE LA ESTRUCTORA "ITERACION"
+for y in cadena:
+    print(y,"500")
+#fin_iterar
+print("FIN DEL BUCLE")
