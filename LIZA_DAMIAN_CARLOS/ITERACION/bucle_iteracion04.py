@@ -1,0 +1,13 @@
+#REPETITIVAS "ITERACION" QUE INPRIME 5 VECES LA MISMA VARIABLE ESCRITA POR TECLADO
+import os
+nombre=""
+
+#ARGUMENTO
+#ASIGNACION DE VALORES
+nombre=os.sys.argv[1]
+
+#PROCESSING DE LA ESTRUCTURA "ITERACION"
+for x in nombre:
+    print(x*5)
+#fin_iterar
+print("FIN DEL BUCLE")
